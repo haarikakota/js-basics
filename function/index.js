@@ -1,7 +1,15 @@
 
-
-function greet(name){
-    console.log('Hello ' + name);
+//performing task
+function greet(name , lastName ){
+    console.log('Hello ' + name + lastName);
 }
 
-greet('Harika');
+//Calculating a value
+function square(number){
+    return number * number;
+}
+
+console.log(square(2));
+
+
+greet('Harika','Kota');
