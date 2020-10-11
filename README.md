@@ -1,2 +1,1 @@
-# js-basics
-Basics of js(codewithmosh)
+![Basics of JavaScript](./banner.png)

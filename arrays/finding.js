@@ -14,21 +14,21 @@ console.log(numbers.includes(1));
 
 
 const courses =[
-    {id:1,name : 'a'},
+    {id:1,nameB : 'a'},
     {id : 2,name :'b'},
 ];
 
 //This is not working here
 //we will use find() method
-console.log(courses.includes({id:1,name:'a'}));
+console.log(courses.includes({id:1,nameB:'a'}));
 
 
 const course=courses.find(function(course){
-   return course.name='a';
+   return course.nameB='a';
 });
 
 const course=courses.findIndex(function(course){
-    return course.name='a';
+    return course.nameB='a';
 });
 
 console.log(course);

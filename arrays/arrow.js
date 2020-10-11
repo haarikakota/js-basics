@@ -5,4 +5,4 @@ const courses =[
 ];
 
 
-const course=courses.find((course)=>course.name='a');
+const course=courses.find((course)=>course.nameB='a');
